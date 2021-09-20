@@ -1,0 +1,56 @@
+.hero {
+  color: var(--white);
+  background: linear-gradient(24.2deg, #6985F6 7.85%, #E550DE 52.84%, #FFC759 97.25%);
+  box-shadow: 0 3px 10px rgba(125, 125, 242, 0.3);
+  padding: 30px 18px 42px;
+}
+
+.hero .h2 {
+  margin-bottom: 10px;
+}
+
+.hero .h2,
+.hero .p {
+  text-align: center;
+}
+
+.smartphone {
+  width: 202px;
+  margin: 0 auto;
+}
+
+.hero__info {
+  position: relative;
+}
+
+.hero__message {
+  left: 0;
+  bottom: 89px;
+  position: absolute;
+  z-index: 2;
+}
+
+.hero__message-right {
+  left: initial;
+  right: 0;
+  bottom: 32px;
+}
+
+.hero__star {
+  background: url("../img/star.svg") center no-repeat;
+  background-size: contain;
+  height: 43px;
+  width: 43px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 71px;
+}
+
+.hero__star_top {
+  height: 16px;
+  width: 16px;
+  top: 24px;
+  right: 58px;
+  transform: rotate(-31deg);
+}

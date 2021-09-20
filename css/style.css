@@ -68,8 +68,11 @@ body {
 
 main {
   max-width: 375px;
-  padding: 20px 20px 41px;
   margin: 0 auto;
+}
+
+.container {
+  padding: 20px 20px 41px;
 }
 
 .gift {
@@ -185,6 +188,12 @@ main {
   margin-bottom: 20px;
 }
 
+.message-mini {
+  font-size: 10px;
+  line-height: 150%;
+  max-width: 163px;
+}
+
 .message::after {
   content: "";
   display: block;
@@ -212,6 +221,19 @@ main {
 .message_left::after {
   right: initial;
   left: -10px;
+}
+
+.message_bottom::after {
+  top: initial;
+  left: 22px;
+  bottom: -10px;
+}
+
+.message_bottom-right::after {
+  top: initial;
+  left: initial;
+  right: 34px;
+  bottom: -10px;
 }
 
 .what-is__chat {
