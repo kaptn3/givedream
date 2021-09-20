@@ -27,6 +27,8 @@ html {
 
 body {
   min-height: 100vh;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .h2,
@@ -59,11 +61,6 @@ body {
 
 .bg_info {
   color: var(--dark-grey);
-}
-
-main {
-  max-width: 375px;
-  margin: 0 auto;
 }
 
 .container {
