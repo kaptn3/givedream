@@ -107,3 +107,52 @@
 .how-it-works__downloads {
   margin-top: 56px;
 }
+
+.footer__land {
+  padding: 32px 25px;
+  background-color: var(--black);
+  color: var(--grey);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footer__land p,
+.footer__land a {
+  opacity: .7;
+}
+
+.footer__info {
+  text-align: center;
+}
+
+.footer__links {
+  margin-bottom: 32px;
+}
+
+.footer__links a {
+  display: block;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.footer__pays {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 29px;
+  align-items: center;
+  margin: 48px auto;
+  width: 259px;
+}
+
+.footer__pays > div {
+  height: 24px;
+}
+
+.footer__pays img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer__legal {
+  margin-top: 48px;
+}
