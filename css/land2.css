@@ -61,7 +61,6 @@
 }
 
 .hero__downloads {
-  padding: 0 16px;
   margin-top: 12px;
   margin-bottom: 10px;
 }
@@ -107,5 +106,4 @@
 
 .how-it-works__downloads {
   margin-top: 56px;
-  padding: 0 10px;
 }

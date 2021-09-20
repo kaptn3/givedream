@@ -324,6 +324,11 @@ main {
   grid-column-gap: 12px;
 }
 
+.black__downloads {
+  max-width: 308px;
+  margin: 0 auto;
+}
+
 .btn {
   display: block;
 }
@@ -350,4 +355,70 @@ main {
 
 .footer p {
   margin-bottom: 18px;
+}
+
+.slides {
+  background-color: var(--purple-tran);
+  padding: 40px 25px 48px;
+}
+
+.slides__quotes {
+  display: block;
+  width: 51px;
+  height: 40px;
+  background: url('../img/icons/quotes.svg') no-repeat center;
+  background-size: contain;
+}
+
+.slides__wrapper {
+  overflow: hidden;
+}
+
+.slides__inner {
+  margin-top: 39px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.slides__quote {
+  padding: 0;
+  margin: 0 25px 0 0;
+  line-height: 150%;
+  color: var(--dark-grey);
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.slides__quote cite {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 32px auto;
+  grid-column-gap: 15px;
+  height: 32px;
+  font-style: inherit;
+  margin-bottom: 16px;
+}
+
+.slides__controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.slides__controls button {
+  border-radius: 50%;
+  background-color: var(--dark-grey);
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  margin: 0 4px;
+  opacity: .3;
+  border: none;
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+
+.slides__controls button.active {
+  opacity: 1;
 }
