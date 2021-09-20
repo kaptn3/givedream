@@ -1,0 +1,11 @@
+:root {
+  --bg: linear-gradient(180deg, #0F0820 0%, #1D1533 100%);
+  --white: #fff;
+  --black: #000;
+  --dark-grey: #494C68;
+  --grey: #A4A5B4;
+  --purple: #7D7DF2;
+  --purple-light: #BABAF6;
+  --pink-light: #CBC2E1;
+  --pink: #E552DC;
+}

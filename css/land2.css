@@ -14,6 +14,11 @@
   text-align: center;
 }
 
+.p {
+  line-height: 150%;
+  text-align: left;
+}
+
 .smartphone {
   width: 202px;
   margin: 0 auto;
@@ -53,4 +58,54 @@
   top: 24px;
   right: 58px;
   transform: rotate(-31deg);
+}
+
+.hero__downloads {
+  padding: 0 16px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.hero__text-action {
+  text-align: center;
+}
+
+.how-it-works {
+  padding: 38px 24px 56px;
+}
+
+.how-it-works__title {
+  margin-bottom: 50px;
+}
+
+.how-it-works__step {
+  margin: 0 auto 13px;
+  width: 234px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.how-it-works__number {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: var(--pink);
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 120%;
+  display: block;
+  transform: rotate(-90deg) translate(73%, -50%);
+}
+
+.how-it-works__h3 {
+  margin-bottom: 23px;
+}
+
+.how-it-works__p {
+  margin-bottom: 100px;
+}
+
+.how-it-works__downloads {
+  margin-top: 56px;
+  padding: 0 10px;
 }
