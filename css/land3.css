@@ -1,0 +1,90 @@
+body {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.hero {
+  padding-bottom: 14px;
+}
+
+.hero .h2 {
+  margin-bottom: 24px;
+}
+
+.hero__message {
+  filter: drop-shadow(0px 2px 50px rgba(125, 125, 242, 0.4));
+}
+
+.hero__downloads {
+  margin-top: 25px;
+}
+
+.smartphone {
+  width: 272px;
+}
+
+.hero__info {
+  padding-top: 64px;
+}
+
+.hero__star {
+  width: 50px;
+  height: 50px;
+  transform: rotate(-29deg);
+  top: 38px;
+  right: 22px;
+}
+
+.hero__star_top {
+  width: 18px;
+  height: 18px;
+  right: 47%;
+  top: 33px;
+  transform: rotate(-50deg);
+}
+
+.hero__message {
+  bottom: 140px;
+}
+
+.hero__message-right {
+  bottom: 83px;
+}
+
+.hero__stars {
+  background: url("../img/icons/stars.svg") no-repeat center;
+  background-size: contain;
+  width: 66px;
+  height: 98px;
+  position: absolute;
+  bottom: 46px;
+  left: -18px;
+}
+
+.how-it-works__number {
+  color: var(--purple);
+}
+
+.how-it-works__text {
+  transform: translateY(-25px);
+}
+
+.how-it-works__p {
+  margin-bottom: 70px;
+}
+
+.slides {
+  background-color: var(--dark-purple);
+}
+
+.slides__quote {
+  color: var(--white);
+}
+
+.slides__quotes {
+  background-image: url("../img/icons/quotes_light.svg");
+}
+
+.slides__controls button {
+  background-color: var(--white);
+}
