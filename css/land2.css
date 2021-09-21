@@ -1,5 +1,8 @@
 .hero {
   padding: 30px 18px 42px;
+  background: linear-gradient(24.2deg, #6985F6 7.85%, #E550DE 52.84%, #FFC759 97.25%);
+  box-shadow: 0 3px 10px rgba(125, 125, 242, 0.3);
+  color: var(--white);
 }
 
 .hero .h2 {
@@ -23,6 +26,8 @@
 
 .hero__info {
   position: relative;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .hero__message {

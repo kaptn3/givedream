@@ -5,6 +5,8 @@ body {
 
 .hero {
   padding-bottom: 14px;
+  background: none;
+  box-shadow: none;
 }
 
 .hero .h2 {
