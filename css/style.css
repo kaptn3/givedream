@@ -134,19 +134,27 @@ body {
   width: 65px;
 }
 
-.gift__bq {
-  background-image: url("../img/envelope.svg");
-  background-position: bottom center;
-  height: 168px;
+.gift__envelope {
   position: relative;
   z-index: 3;
   top: -25px;
+}
+
+.gift__envelope-top {
+  background-image: url("../img/top-envelope.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 38px;
+}
+
+.gift__bq {
   color: var(--dark-grey);
   font-size: 15px;
   line-height: 21px;
-  padding: 37px 24px 16px;
+  padding: 0 24px 16px;
   text-align: left;
-  margin: 0;
+  margin: -1px 0 0;
+  background-color: #F1F1F1;
 }
 
 .gift__bq cite {
