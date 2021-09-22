@@ -1,5 +1,5 @@
 const slide = (btns, slider, i) => {
-  const x = i === 0 ? 0 : `calc(-${i * 100}% - 25px)`;
+  const x = i === 0 ? 0 : `calc(-${i * 100}% - ${25 * i}px)`;
   slider.style.transform = `translateX(${x})`;
 
   for (let k = 0; k < btns.length; k++) {
