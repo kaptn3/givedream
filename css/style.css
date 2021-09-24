@@ -27,6 +27,8 @@ html {
 
 body {
   min-height: 100vh;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .h2,
@@ -238,13 +240,16 @@ body {
 
 .what-is {
   position: relative;
+  max-width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 80px;
 }
 
 .what-is::after {
   content: "";
   display: block;
   position: absolute;
-  background: linear-gradient(180deg, #160E29 0%, rgba(45, 30, 82, 0.937708) 44.29%, rgba(64, 40, 122, 0.937708) 55.84%, #1D1533 92.43%);
+  background: linear-gradient(180deg, #150e28 0%, rgba(45, 30, 82, 0.937708) 44.29%, rgba(64, 40, 122, 0.937708) 55.84%, #150e2a 92.43%);
   opacity: .3;
   top: 0;
   right: 0;
